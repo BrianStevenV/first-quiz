@@ -1,6 +1,6 @@
 # Security Question
 ---
-# A01 - LOSS OF ACCESS CONTROL
+# A01 - BROKEN ACCESS CONTROL
 
 - Take into account the hierarchy design of the roles, so that the authorization permisions are well designed, in this way the ownership of the information is guaranteed and the user hierarchy is correctly.
 - Have tokens securely.
@@ -9,7 +9,7 @@
 - Do not expose information in URL.
 
 
-# A02 - CRYPTOGRAPHIC FLAWS
+# A02 - CRYPTOGRAPHIC FAILURES
 
 - Use recommended encryption techniques such as Argon2, Script, BCrypt, PBKDF2.
 - Identify sensitive information and sotre it with encryption, lest there be security breaches and the data is exposed or that an employee commits the crime of selling information.
@@ -27,14 +27,14 @@
 
 - Have the semantic elements of HTML5 well configured, that their field collection is validated so that it does not allow Cross-Site Scripting with HTML injections, both reflected and persistent, each variable must be protected and have validation, then it is eliminated or cleaned, this is known as injection resistance, defining string length, defining what characters I need and not giving that freedom to the user.
 
-# A04 - UNSAFE DESIGN
+# A04 - INSECURE DESIGN
 
 - Be careful in the creation process but also in software maintenance.
 - Train engineers in security matters and better manage project planning so that they take security issues into account from the beginning, in this way time and budget are better managed by not having future errors that could have a cost. Higher and problems with delivery dates.
 - Raising awareness among the engineering team about how they perceive the responsibility of the secure development cycle, in this way the mindset of the work team is changed.
 - Know OWASP - SAMM so that the team knows what to implement according to their needs.
 
-# A05 - INCORRECT SECURITY CONFIGURATION 
+# A05 - SECURITY MISCONFIGURATION
 
 - Verify that access permissions are appropriate.
 - Make appropriate use of errors/exceptions.
@@ -60,14 +60,14 @@
 - Prevent cookies from being compromised so that the session value is not compromised.
 - Implement a server side session controller.
 
-# A08 - FAILURES IN SOFTWARE AND DATA INTEGRITY
+# A08 - SOFTWARE AND DATA INTEGRITY FAILURES
 
 - Use components, dependencies,etc. From reliable sources.
 - Make deserialization safe, since an attacker can deserialize and inject new values (bad-stuff).
 - Have data integrity checks.
 - Implement robust access control (CI/CD pipeline).
 
-# A09 - FAILURES IN REGISTRATION AND  MONITORING
+# A09 - SECURITY LOGGING AND MONITORING FAILURES
 
 - have traceability of important system processes, use reliable tools.
 
