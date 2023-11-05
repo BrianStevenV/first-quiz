@@ -67,7 +67,7 @@
 - Have data integrity checks.
 - Implement robust access control (CI/CD pipeline).
 
-#A09 - FAILURES IN REGISTRATION AND  MONITORING
+# A09 - FAILURES IN REGISTRATION AND  MONITORING
 
 - have traceability of important system processes, use reliable tools.
 
